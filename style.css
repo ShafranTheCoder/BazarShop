@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+
+/*-----------NAVBAR SECTION -----------*/
+.navbar-section .row .col {
+  min-height: 50px;
+}
+
+.navbar-section {
+  background: #434343;
+}
+
+
+.navbar-section ul li,
+i {
+  padding-right: 10px;
+}
+
+.navbar-section ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.left-list a:hover {
+  text-decoration: underline;
+}
+
+.right-list a:hover {
+  text-decoration: underline;
+}
+
+/*-------------NEWSLETTER SECTION---------------*/
+
+.newsletter-section .row .col {
+  min-height: 119px;
+}
+
+.newsletter-section {
+  background-color: #f2f2f2;
+}
+
+.newsletter-section i {
+  color: #d58e32;
+  padding: 0 6.5px;
+}
+
+.newsletter-title {
+  color: #d58e32;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.newsletter-section .input-group,
+input {
+  height: 46px !important;
+  border: none !important;
+}
+
+.newsletter-section input {
+  color: #d2d2d2;
+}
+
+
+.news-button {
+  background: white;
+  border-radius: 5px !important;
+}
+
+.newsletter-section span {
+  background-color: white;
+  border: none !important;
+}
+
+.newsletter-section span::after {
+  margin-left: 12px;
+  content: '';
+  height: 17px;
+  width: 1px;
+  background: gray;
+}
+
+.newsletter-section input {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+.form-control:focus,
+.news-button:focus {
+  border-color: #f2f2f2;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*--------------FOOTER SECTION------------------*/
+.footer-section .row .col {
+  min-height: 335px;
+  padding: 100px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-section {
+  background: #363636;
+}
+
+.footer__title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.footer__caption {
+  line-height: 18px;
+  color: #a9a9a9;
+  text-decoration: none;
+  outline: none;
+}
+
+.footer__caption:hover {
+  text-decoration: underline;
+  outline: none;
+  color: #a9a9a9;
+}
